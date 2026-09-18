@@ -1,7 +1,7 @@
 This folder contains
-1. Complete_Knowledge_Distillation_Notebook.ipynb : This notebook contains the entire pipeline from loading datasets from hugging face, cleaning and merging them 
+1. Complete_Knowledge_Distillation_Notebook.py : This python script contains the entire pipeline from loading datasets from hugging face, cleaning and merging them 
 to get a unified dataset, creating the distilled dataset using the teacher model (llama-4-scout-17b-16e-instruct) using serverless inference Groq API, cleaning the
 distilled dataset, creating the chatML template .jsonl file, student model (qwen-2.5-3b-instruct) fine tuning using LoRA + QLoRA, inference, testing on real life 
 sample legal clauses.
-2. Upload_Unquantized_Model_to_HuggingFace.ipynb : This notebook merges the LoRA adapter parameters to the baseline student model (qwen-2.5-3b-instruct), and uploads
+2. Upload_Unquantized_Model_to_HuggingFace.py : This python script merges the LoRA adapter parameters to the baseline student model (qwen-2.5-3b-instruct), and uploads
 the same to the hugging face.
