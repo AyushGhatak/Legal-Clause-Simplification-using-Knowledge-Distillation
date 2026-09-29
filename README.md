@@ -483,6 +483,28 @@ The project successfully demonstrates:
 
 ---
 
+# Repository Structure
+
+The respository structure is:
+
+```text
+Legal-Clause-Simplification-using-Knowledge-Distillation/
+│
+├── Dataset/
+│   ├── distilled_legal_dataset.csv
+│   ├── distilled_state_tracker.csv
+│   ├── master_compiled_legal_dataset.csv
+|   ├── sft_chatbot_dataset.jsonl
+|   ├── README.md
+├── Scripts/
+│   ├── Complete_Knowledge_Distillation_Notebook.py
+│   ├── Upload_Unquantized_Model_to_HuggingFace.py
+│   ├── README.md
+└── README.md
+```
+
+---
+
 # Disclaimer
 
 This project is intended for educational and research purposes.
