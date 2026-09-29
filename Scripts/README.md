@@ -1,4 +1,5 @@
-This folder contains
+This folder contains:
+
 1. Complete_Knowledge_Distillation_Notebook.py : This python script contains the entire pipeline from loading datasets from hugging face, cleaning and merging them 
 to get a unified dataset, creating the distilled dataset using the teacher model (llama-4-scout-17b-16e-instruct) using serverless inference Groq API, cleaning the
 distilled dataset, creating the chatML template .jsonl file, student model (qwen-2.5-3b-instruct) fine tuning using LoRA + QLoRA, inference, testing on real life 
